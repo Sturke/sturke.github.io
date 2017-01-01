@@ -5,16 +5,24 @@
    ========================================================================== */
 
 
-/*
- * A better looking default horizontal rule
- */
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+
+
+html, body {
+    height: 100%;
+    color: rgba(249,224,164,1);
+    background-color: rgba(255,255,205,.45);
 }
 
+body {
+
+}
+
+nav {
+    background-color: rgba(249,224,164,1);
+}
+
+a {
+    color: rgba(249,224,164,1);
+    text-decoration: none;
+}

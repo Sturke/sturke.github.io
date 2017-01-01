@@ -7,45 +7,56 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <!-- Place favicon.ico in the root directory -->
     <link rel="icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Bootstrap core CSS -->
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous"> 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/burkestyles.css">
-        <title>Burke Stanion</title>
-    </head>
-    
+    <link rel="stylesheet" href="css/burkestyles.css">        
+    <title>Burke Stanion</title>
+    </head>        
     
 <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="site-wrapper">
-        <header>
-            <nav class="navbar navbar-dark navbar-full navbar-fixed-top bg-success">
-                <a class="navbar-brand" href="index.html">Burke Stanion</a>
-                <ul class="nav navbar-nav pull-sm-right">
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Process</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>    
-                </ul>
-            </nav>
-        </header>
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+      
+                <header>
+                    <nav class="navbar navbar-light navbar-full navbar-fixed-top">
+                      <div class="container">
+                       <a class="navbar-brand" href="index.html">Burke Stanion</a> 
+                        <ul class="nav navbar-nav float-xs-right">
+                            <li class="nav-item active"><a class="nav-link" href="#">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Process</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>    
+                        </ul>
+                      </div>
+                    </nav>
+                </header>
+          
+                  
+      <div class="container" style="margin-top: 70px">
+    <p>I just found a list of <a href="https://bootstrapcreative.com/resources/bootstrap-3-css-classes-index/">Bootstrap v3 Classes</a> and descriptions of their uses.</p>
+
+
+    <p>I just found a list of <a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/">Bootstrap v4 Classes</a> and descriptions of their uses.</p>
+    </div>
+    
+          <div class="container">
+    <p>I also found a <a href="http://v4-alpha.getbootstrap.com/getting-started/introduction/">Documentation Page</a> for v4 Bootstrap.</p>
+
+
+    <p>Navbar is looking pretty good, but now I need to work on dropdown nav next.</p>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+        </script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
@@ -59,5 +70,8 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+    
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
