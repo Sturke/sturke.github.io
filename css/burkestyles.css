@@ -23,6 +23,20 @@ nav {
 }
 
 a {
-	color: rgba(153,51,51,1);
+	color: rgba(153,107,88,1);
 	text-decoration: none;
+}
+
+a:focus, a:hover {
+	color: rgba(255,70,18,1);
+}
+
+.custom-brand {
+	color: rgba(153,107,88,1);
+}
+.navbar-light .navbar-brand .custom-brand {
+    color: rgba(153,107,88,1);
+}
+.navbar-light .navbar-brand .custom-brand:focus, .navbar-light .navbar-brand .custom-brand:hover {
+  color: rgba(255,70,18,1);
 }
