@@ -4218,11 +4218,11 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(153,107,88,1);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: rgba(255,70,18,1);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-nav .nav-link {

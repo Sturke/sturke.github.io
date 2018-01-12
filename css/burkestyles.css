@@ -34,9 +34,20 @@ a:focus, a:hover {
 .custom-brand {
 	color: rgba(153,107,88,1);
 }
-.navbar-light .navbar-brand .custom-brand {
-    color: rgba(153,107,88,1);
+
+.navbar-light .navbar-brand {
+  color: rgba(153,107,88,1);
 }
-.navbar-light .navbar-brand .custom-brand:focus, .navbar-light .navbar-brand .custom-brand:hover {
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
   color: rgba(255,70,18,1);
+}
+
+.bq-color {
+	color: rgba(255,255,255,1);
+}
+
+.blockquote-footer {
+
+    color: rgba(255,255,255,1);
 }
