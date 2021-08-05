@@ -4,3 +4,5 @@ I began learning how to write HTML in 1996. I bought a book and taught myself ho
 2020 and 2021 have been a challenge with the Covid-19 pandemic and political circus surrounding it. I want to work from home and this pandemic is my motivation to finally enter this field, stay safe from the pandemic, and to explore and expand my mind, talents, abilities, and skills. 
 
 I really want to and I really need to establish myself in this field. 
+
+Aug 5, 2021—Upgraded to Bootstrap 5.1
