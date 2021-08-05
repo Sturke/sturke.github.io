@@ -30,7 +30,7 @@ nav {
     background-color: rgba(249,224,164,1);
 }
 
-a {
+a#navbarDropdown.nav-link.dropdown-toggle.mx-2{
 	color: rgba(153,107,88,1);
 	text-decoration: none;
 }
