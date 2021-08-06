@@ -11,7 +11,7 @@
 html, body {
 	height: 100%;
 	color: rgba(91,66,6,1);
-	background-color: rgba(255,255,205,.45);
+	background-color: rgba(255,255,255,.45);
 }
 
 .container-fluid {
@@ -26,36 +26,31 @@ html, body {
     padding-top: 30px;
 }
 
-nav {
-    background-color: rgba(249,224,164,1);
+
+.container-xl {
+	background-color: rgba(101,216,147,1);
+}
+.col-sm-6 {
+	background-color: rgba(48,86,27,1);
+}
+.col-lg-8 {
+	background-color: rgba(300,200,100,1);
+}
+.col-6 {
+	background-color: rgba(170,190,160,1);
+}
+.col-lg-4 {
+	background-color: rgba(170,190,160,1);
+}
+.col-sm-4 {
+	background-color: rgba(100,100,100,.5);
+}
+.g-3 {
+	background-color: rgba(100,200,300,1);	
 }
 
-a#navbarDropdown.nav-link.dropdown-toggle.mx-2{
-	color: rgba(153,107,88,1);
-	text-decoration: none;
-}
 
-a:focus, a:hover {
-	color: rgba(255,70,18,1);
-}
 
-.custom-brand {
-	color: rgba(153,107,88,1);
-}
 
-.navbar-light .navbar-brand {
-  color: rgba(153,107,88,1);
-}
 
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: rgba(255,70,18,1);
-}
 
-.bq-color {
-	color: rgba(255,255,255,1);
-}
-
-.blockquote-footer {
-
-    color: rgba(255,255,255,1);
-}
