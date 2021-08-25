@@ -15,7 +15,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#welcome-section {
+  top: 20;
+  line-height: 1.6;
+  background: #F5F5F5;
+  min-height: 55vh;
+  padding-top: 45vh;
+  text-align: 
+}
 .about {
 	background-color: rgba(151, 200, 151,1);
 }
