@@ -31,6 +31,22 @@ body {
   padding-top: 45vh;
   text-align: 
 }
+.projects-section {
+  top: 20;
+  line-height: 1.6;
+  background: #cccccc;
+  min-height: 55vh;
+  padding-top: 45vh;
+  text-align: 
+}
+.experience-section {
+  top: 20;
+  line-height: 1.6;
+  background: #bababa;
+  min-height: 55vh;
+  padding-top: 45vh;
+  text-align: 
+}
 .about {
 	background-color: rgba(151, 200, 151,1);
 }
