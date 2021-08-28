@@ -23,6 +23,14 @@ body {
   padding-top: 45vh;
   text-align: 
 }
+.latest-section {
+  top: 20;
+  line-height: 1.6;
+  background: #d7d7d7;
+  min-height: 55vh;
+  padding-top: 45vh;
+  text-align: 
+}
 .about {
 	background-color: rgba(151, 200, 151,1);
 }
