@@ -17,6 +17,7 @@ body {
 }
 .section {
   margin-bottom: 30px;
+  padding: 30px;
 }
 .welcome-section {
   top: 20;
