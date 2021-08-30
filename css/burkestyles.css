@@ -22,6 +22,7 @@ body {
 }
 .welcome-section {
   top: 20;
+  margin-bottom: 30px;
   line-height: 1.6;
   background: #F5F5F5;
   min-height: 55vh;
@@ -30,6 +31,7 @@ body {
 }
 .latest-section {
   top: 20;
+  margin-bottom: 30px;
   line-height: 1.6;
   background: #d7d7d7;
   min-height: 55vh;
@@ -38,6 +40,7 @@ body {
 }
 .projects-section {
   top: 20;
+  margin-bottom: 30px;
   line-height: 1.6;
   background: #cccccc;
   min-height: 55vh;
@@ -46,6 +49,7 @@ body {
 }
 .experience-section {
   top: 20;
+  margin-bottom: 30px;
   line-height: 1.6;
   background: #bababa;
   min-height: 55vh;
