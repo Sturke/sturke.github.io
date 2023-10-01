@@ -1,4 +1,8 @@
 <script>
+  
+  import { push } from "svelte-spa-router";
+  import { Button } from "flowbite-svelte";
+
   import { format } from "timeago.js";
   import Card from "./Card.svelte";
   import { blogs } from "../data.js";
@@ -14,4 +18,6 @@
     publishDate={format(blog.publishDate)}
   />
 {/each}
+<!-- New About Page Button -->
+<Button class="my-4" on:click={() => push("/about")}>About</Button>
 

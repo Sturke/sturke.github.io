@@ -1,3 +1,8 @@
+<script>
+  import { pop } from "svelte-spa-router";
+  import { Button } from "flowbite-svelte";
+</script>
+
 <h1 class="text-4xl dark:text-white">About</h1>
 
 <p class="text-xl dark:text-white">
@@ -13,3 +18,4 @@
   Maecenas vel enim vitae ligula tempor tempor. Mauris ut arcu odio. Nunc ac
   neque a neque scelerisque accumsan. Sed facilisis arcu at pharetra posuere.
 </p>
+<Button class="my-4" on:click={pop}>Back</Button>
