@@ -59,3 +59,52 @@ npm run deploy
 
 This will deploy your GitHub page to `https://<username>.github.io/<repository name>` URL. Don’t forget to change the username and repository name to your personal Github username and repository.
 It may take a couple of minutes. You can check the progress in GitHub Actions tab.
+
+
+## Warp AI
+Question: I want to learn Svelte.
+
+That's great! Svelte is a modern JavaScript framework for building user interfaces. Here are some steps to get started with learning Svelte:
+
+1. Install Node.js: Svelte requires Node.js to be installed on your machine. You can download and install it from the official Node.js website (https://nodejs.org).
+
+2. Create a new Svelte project: Open your terminal and run the following command to create a new Svelte project:
+   ```bash
+   npx degit sveltejs/template {{project-name}}
+   ```
+
+   Replace `{{project-name}}` with the desired name for your project.
+
+3. Navigate to the project directory: Change your current directory to the newly created project directory:
+   ```bash
+   cd {{project-name}}
+   ```
+
+4. Install dependencies: Run the following command to install the project dependencies:
+   ```bash
+   npm install
+   ```
+
+5. Start the development server: Once the dependencies are installed, start the development server with the following command:
+   ```bash
+   npm run dev
+   ```
+
+   This will start a local development server and open your Svelte app in your default browser.
+
+6. Explore the project structure: Svelte follows a component-based architecture. Take a look at the project structure and explore the `src` directory, which contains the main Svelte components.
+
+7. Learn Svelte syntax: Svelte has its own syntax for building components. Familiarize yourself with the Svelte syntax by reading the official documentation (https://svelte.dev/docs).
+
+8. Build your first Svelte app: Start by modifying the existing Svelte components or creating new ones. Experiment with the Svelte syntax and see how it affects the rendered output.
+
+9. Deploy your Svelte app: Once you're ready to deploy your Svelte app, run the following command to build a production-ready version:
+   ```bash
+   npm run build
+   ```
+
+   This will generate optimized static files in the `public` directory, which you can deploy to a web server.
+
+10. Continue learning: Svelte has a vibrant community and plenty of resources available. Explore the official documentation, join forums or communities, and build more complex projects to further enhance your Svelte skills.
+
+Remember to practice regularly and build small projects to reinforce your learning. Good luck on your Svelte journey!
