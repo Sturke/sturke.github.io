@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="/app/immutable/entry/start.Dv7jgVNa.js">
+		<link rel="modulepreload" href="/app/immutable/chunks/entry.BasLt_I8.js">
+		<link rel="modulepreload" href="/app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="/app/immutable/entry/app.Cg7UPj6l.js">
+		<link rel="modulepreload" href="/app/immutable/chunks/index.DFTQtrJW.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		
+		<!-- do not remove this div element unless you are abolutely sure you 
+		 don't need it. Read here why it matters: 
+		 ... https://github.com/sveltejs/kit/discussions/7585 -->
+
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_nb7bbz = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/app/immutable/entry/start.Dv7jgVNa.js"),
+						import("/app/immutable/entry/app.Cg7UPj6l.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
