@@ -7,6 +7,11 @@
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		
+		<!-- do not remove this div element unless you are abolutely sure you 
+		 don't need it. Read here why it matters: 
+		 ... https://github.com/sveltejs/kit/discussions/7585 -->
+
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
