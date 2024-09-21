@@ -3,4 +3,4 @@
 <h3>This is a test</h3>
 <p>This <a href="https://kit.svelte.dev/docs/project-structure" target="_blank">page</a> attempts to 
 show how to structure your SvelteKit site components and pages.</p>
-<p><a href="https://kit.svelte.dev/docs/routing">Continue Learning SvelteKit Routing</a></p>
+<p><a href="https://kit.svelte.dev/docs/routing" target="_blank">Continue Learning SvelteKit Routing</a></p>
