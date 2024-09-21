@@ -1,6 +1,4 @@
-<svelte:head>
-    <title>Sturke SvelteKit</title>
-</svelte:head>
+
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev" target="_blank">kit.svelte.dev</a> to read the documentation</p>
 <h3>This is a test</h3>
