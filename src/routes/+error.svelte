@@ -1,5 +1,7 @@
-<!doctype html>
-<html lang="en">
+
+<svelte:head>
+    <title>Home Page</title>
+</svelte:head>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
@@ -8,6 +10,6 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
         <h1>Oops! Something went wrong. Page Not found</h1>
-		<div style="display: contents">%sveltekit.body%</div>
+        <h2>This is our 404 page</h2>
+		<div style="display: contents"><h3><a href="/">Go back to Home</h3></div>
 	</body>
-</html>
